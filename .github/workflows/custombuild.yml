@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev \
-            libxcb-xfixes0-dev libxkbcommon-dev
+            libxcb-xfixes0-dev libxkbcommon-dev;rustup toolchain install nightly
       - name: Update rust
         run: rustup update
       - name: Build
