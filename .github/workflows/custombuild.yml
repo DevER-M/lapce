@@ -1,5 +1,3 @@
-name: customRelease
-
 on:
   release
 
